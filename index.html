@@ -1,9 +1,61 @@
 <!DOCTYPE html>
-<html>
-  <head><title>점검 중</title></head>
-  <body>
-    <h1>점검 중입니다.</h1>
-    <p>죄송합니다. 서버 정전으로 인해 현재 접속이 불가능합니다.<br>
-    나중에 다시 시도해주세요.</p>
-  </body>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>점검 중입니다</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0f172a;
+      color: #ffffff;
+      font-family: 'Noto Sans KR', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 500px;
+      padding: 2rem;
+      border-radius: 1rem;
+      background-color: #1e293b;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #60a5fa;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #cbd5e1;
+      font-weight: 400;
+    }
+
+    .emoji {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="emoji">🔧</div>
+    <h1>점검 중입니다</h1>
+    <p>
+      현재 서버 점검 작업으로 인해<br />
+      서버 접속이 일시적으로 제한됩니다.<br /><br />
+      나중에 다시 접속해 주세요!
+    </p>
+  </div>
+</body>
 </html>
